@@ -45,8 +45,8 @@ fun main(){
     val firstCharInStr = myStr[0]
     var lastCharInStr=myStr[myStr.length -1]
 
-    print("First character  " + firstCharInStr)
-    print("Last character " + lastCharInStr)
+    //print("First character  " + firstCharInStr)
+    //print("Last character " + lastCharInStr)
 
     //Arithmetic operators (+, -, *, /, %)
     var result = 5+3
@@ -54,9 +54,17 @@ fun main(){
     val b= 3
     var resultDouble: Double
     resultDouble = a / b
-    print(resultDouble)
+    //print(resultDouble)
 
+    //Comparison operators (==, !=, <, >, <=, >=)
+    val isEqual = 5==3
+    //println("isEqual is + $isEqual")
 
+    val isNotEqual = 5!=5
+    println("isNotEqual is $isNotEqual")
+
+    println("is5greater3 ${5>3}")
+    println("is5LowerEqual3 ${5 <=3}" )
 }
 
 
