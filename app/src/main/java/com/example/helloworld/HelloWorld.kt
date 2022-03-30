@@ -61,10 +61,50 @@ fun main(){
     //println("isEqual is + $isEqual")
 
     val isNotEqual = 5!=5
+    //String interpolation
     println("isNotEqual is $isNotEqual")
 
-    println("is5greater3 ${5>3}")
+    println("is-5less3 ${5<3}")
     println("is5LowerEqual3 ${5 <=3}" )
+
+    //Assignment operators (+=, -=, *=, /=, %=)
+    var myNum =5
+    myNum +=3
+    //println("myNum is $myNum")
+
+    myNum *= 4
+    //println("myNum is $myNum")
+
+    //Increment & Decrement operators (++, --)
+    myNum++
+    //println("myNum is $myNum")
+    //println("myNum is ${myNum++}")
+    //println("myNum is ${++myNum}")
+    //println("myNum is ${--myNum}")
+
+    var heightPerson1 =170
+    var heightPerson2 =159
+
+    if(heightPerson1 > heightPerson2) {
+        println("use raw force")
+    }else if(heightPerson1 == heightPerson2){
+        println("use your power technique 1337")
+    }else {
+        println("use technique")
+
+    }
+
+    val age =31
+    if(age >= 21){
+        print("now you may drink in the US ")
+    }else if(age >=18){
+        println("you may vote now")
+    }else if (age>=16){
+        println("you may drive now")
+    }else {
+        print("you are too young")
+    }
 }
+
 
 
